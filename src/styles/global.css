@@ -1,0 +1,92 @@
+/* Fonts */
+@font-face {
+  font-family: "Geologica";
+  src: url("/fonts/Geologica-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geologica";
+  src: url("/fonts/Geologica-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geologica";
+  src: url("/fonts/Geologica-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geologica";
+  src: url("/fonts/Geologica-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geologica";
+  src: url("/fonts/Geologica-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Color scheme */
+:root {
+  color-scheme: light dark;
+
+  /* Color palette */
+  --color-fondo-a: #7a7a7f;
+  --color-fondo-b: #0e2b3d;
+
+  --color-font-a: #080808;
+  --color-bg-a: rgb(196 196 206 / 0.57);
+
+  --color-font-b: #f0f0f0;
+  --color-bg-b: rgb(17 37 51 / 0.57);
+}
+
+/* Global styles */
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  overflow-x: hidden;
+}
+
+body,
+button {
+  font-family: "Geologica", sans-serif;
+  color: var(--color-font-b);
+}
+
+button {
+  user-select: none;
+}
+
+h2 {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  text-align: center;
+  padding-top: 3.75rem;
+  margin-bottom: 1.5rem;
+}
+
+img {
+  user-select: none;
+}
+
+p {
+  text-indent: 0.75rem;
+  margin-bottom: 0.5rem;
+  text-wrap: pretty;
+}
